@@ -62,3 +62,5 @@ app = QApplication(sys.argv)
 win = MainWindow()
 win.show()
 app.exec_()
+
+print 'finish'
