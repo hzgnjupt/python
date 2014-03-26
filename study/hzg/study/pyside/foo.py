@@ -2,9 +2,9 @@
 import sys
 
 from PySide import QtGui
+from PySide.QtCore import Qt
 from PySide.QtGui import QMainWindow, QApplication, QLabel, QGridLayout, \
     QPushButton, QWidget, QMessageBox, QFileDialog
-from PySide.QtCore import Qt
 
 
 class MainWindow(QWidget):
@@ -64,3 +64,4 @@ win.show()
 app.exec_()
 
 print 'finish'
+
