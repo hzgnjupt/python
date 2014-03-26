@@ -22,9 +22,9 @@ class PersonModel(QAbstractListModel):
     def rowCount(self, idx):
         return len(self.persons)
     
-    def data(self, idx, role):
+    def data(self, fuck, role):
         if role == Qt.DisplayRole:
-            return self.persons[idx.row()].name
+            return self.persons[fuck.row()].name
 
 class MainWindow(QWidget):
     
