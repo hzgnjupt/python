@@ -57,6 +57,8 @@ class MainWindow(QWidget):
         with open(filename) as f:
             self.reviewEdit.setText(f.read())
 
+print 'finish'
+
 app = QApplication(sys.argv)
 win = MainWindow()
 win.show()
