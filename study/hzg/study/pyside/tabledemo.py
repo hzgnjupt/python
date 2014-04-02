@@ -45,6 +45,7 @@ class MainWindow(QWidget):
         QWidget.__init__(self)
         self.resize(640, 480)
         vbox = QVBoxLayout()
+        self.setWindowTitle('TableDemo')
         self.setLayout(vbox)
         self.table = QTableView()
         self.table.setAlternatingRowColors(True)
