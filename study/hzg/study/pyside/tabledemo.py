@@ -68,5 +68,5 @@ class MainWindow(QWidget):
 app = QApplication(sys.argv)
 win = MainWindow()
 win.show()
-sys.exit(app.exec_())
+sys.exit(app.exec_()) 
 
